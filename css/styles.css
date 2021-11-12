@@ -11303,6 +11303,9 @@ p {
 .page-section {
   padding: 6rem 0;
 }
+.page-section1 {
+  padding: 4rem 0;
+}
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
@@ -11711,7 +11714,9 @@ header.masthead .masthead-heading {
 }
 
 .team-member1 img {
-  width: 600px;
+  width: 29rem;
+  height: 29rem;
+  margin-left: -60px;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
