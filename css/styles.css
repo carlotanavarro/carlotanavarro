@@ -1383,6 +1383,13 @@ progress {
     width: 33.33333333%;
   }
 
+  .col-lg-4.1 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    position: relative;
+    left:30rem;
+  }
+
   .col-lg-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
@@ -11707,6 +11714,12 @@ header.masthead .masthead-heading {
   margin-bottom: 3rem;
   text-align: center;
 }
+.team-member2 {
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative;
+  left:15rem;
+}
 .team-member img {
   width: 14rem;
   height: 14rem;
@@ -11730,7 +11743,6 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
