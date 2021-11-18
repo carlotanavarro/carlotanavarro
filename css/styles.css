@@ -3784,7 +3784,7 @@ textarea.form-control-lg {
   color: #1e2125;
   background-color: #e9ecef;
 }
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active, .dropdown-item:active {-moz-background-clip:;
   color: #fff;
   text-decoration: none;
   background-color: #ffc800;
@@ -11420,7 +11420,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/header-bg8.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
