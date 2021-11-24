@@ -14,7 +14,7 @@
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
+  --bs-pink: #91466b;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc800;
@@ -236,11 +236,11 @@ sup {
 }
 
 a {
-  color: #ffc800;
+  color: #91466b;
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: #91466b;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4007,7 +4007,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ffc800;
+  background-color: #91466b;
 }
 
 .nav-fill > .nav-link,
