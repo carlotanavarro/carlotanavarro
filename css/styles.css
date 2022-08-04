@@ -7699,8 +7699,14 @@ textarea.form-control-lg {
   text-transform: lowercase !important;
 }
 
+.margin-topping{
+  position: relative; 
+  bottom: -200px; 
+}
+
 .text-uppercase {
   text-transform: uppercase !important;
+
 }
 
 .text-capitalize {
@@ -11420,7 +11426,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg8.jpg");
+  background-image: url("../assets/img/header-bg23.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
