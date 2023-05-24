@@ -641,29 +641,77 @@ progress {
   margin-left: auto;
 }
 
+@media (min-width: 375px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+
+  .team-member1 img {
+    width: 18rem;
+    height: 18rem;
+    margin-left: -60px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+  }
+
+  .team-member1 img {
+    width: 20rem;
+    height: 20rem;
+    margin-left: -60px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+
+  .team-member1 img {
+    width: 20rem;
+    height: 20rem;
+    margin-left: -60px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+  }
+
+  .team-member1 img {
+    width: 25rem;
+    height: 25rem;
+    margin-left: -60px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
+
+  .team-member1 img {
+    width: 29rem;
+    height: 29rem;
+    margin-left: -60px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
+  }
+
+  .team-member1 img {
+    width: 29rem;
+    height: 29rem;
+    margin-left: -60px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
   }
 }
 .row {
@@ -7272,6 +7320,11 @@ textarea.form-control-lg {
   margin-left: auto !important;
 }
 
+.mx-auto1 {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
 .my-0 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -7786,6 +7839,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  padding: 1rem;
 }
 
 .text-black-50 {
@@ -11352,6 +11406,17 @@ p {
   justify-content: center;
   padding: 0;
   border-radius: 100%;
+  margin-bottom: 2rem;
+}
+
+.btn-social1 {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
 }
 
 #mainNav {
@@ -11504,6 +11569,14 @@ header.masthead .masthead-heading {
   font-weight: 700;
   margin-bottom: 0;
 }
+
+.portfolio-caption-heading1 {
+  font-size: 1.1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11732,12 +11805,6 @@ header.masthead .masthead-heading {
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 
-.team-member1 img {
-  width: 29rem;
-  height: 29rem;
-  margin-left: -60px;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
-}
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
