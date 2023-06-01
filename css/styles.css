@@ -11503,14 +11503,26 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("../assets/img/header-bg39.jpg");
+    background-image: url("../assets/img/header-bg42.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) {
+  header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/header-bg39.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+}@media (min-width: 600px) {
   header.masthead {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
