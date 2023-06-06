@@ -11503,7 +11503,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("../assets/img/header-bg42.jpg");
+    background-image: url("../assets/img/header-bg45.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -11541,12 +11541,25 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("../assets/img/header-bg36.jpg");
+    background-image: url("../assets/img/header-bg44.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
   }
+}
+@media (min-width: 1000px) {
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg43.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 }
 @media (min-width: 1271px) {
 header.masthead {
@@ -11554,7 +11567,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg41.jpg");
+  background-image: url("../assets/img/header-bg46.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
